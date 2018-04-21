@@ -12,7 +12,7 @@ if os.name == "nt":
             print 'Please Install Pyinstaller Check-->[Fail]'
             sys.exit(0)
         else:
-            print "Dependency [python27][Pyinstaller] Cheak-->[OK].!"
+            print "Dependency [python27][Pyinstaller] Check-->[OK].!"
 
 else:
      print "Use Windows OS.!"
